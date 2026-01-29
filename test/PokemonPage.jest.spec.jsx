@@ -111,7 +111,7 @@ describe("<PokemonPage />", () => {
         </MemoryRouter>,
       )
     })
-
+    screen.debug()
     expect(screen.getByText("Previous")).toHaveAttribute(
       "href",
       "/pokemon/ditto",
