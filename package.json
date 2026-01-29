@@ -1,14 +1,14 @@
 {
   "name": "fullstackopen-cicd",
   "version": "1.0.0",
-  "sourceType": "commonjs",
+  "type": "commonjs",
   "description": "Full Stack Open",
   "main": "src/index.js",
   "scripts": {
     "start": "webpack-dev-server --open --mode development",
     "start-prod": "node app.js",
     "test": "jest",
-    "eslint": "eslint ./**/*.{js,jsx}",
+    "eslint": "eslint ./**/*.{js,jsx,cjs}",
     "build": "webpack --mode production"
   },
   "repository": {
